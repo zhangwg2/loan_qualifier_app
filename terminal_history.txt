@@ -1,0 +1,31 @@
+    1  ls -al ~/.ssh
+    2  clip < ~/.ssh/id_ed25519.pub
+    3  start the ssh-agent in the background
+    4  eval "$(ssh-agent -s)"
+    5  ssh-add ~/.ssh/id_ed25519
+    6  conda activate dev
+    7  pip -V
+    8  pip freeze
+    9  pip install fire
+   10  pip install questionary
+   11  conda deactivate dev
+   12  cd C:ls
+   13  ls 
+   14  ls AppData/
+   15  git clone https://github.com/zhangwg2/loan_qualifier_app.git
+   16  cd loan_qualifier_app/
+   17  pwd
+   18  ls -a
+   19  git add app.py
+   20  git add -f app.py
+   21  ls
+   22  git add data
+   23  git add -f data
+   24  ls
+   25  git add -f README.md
+   26  history 50
+   27  source ./bin/activate
+   28  pip install fire
+   29  pip install questionary
+   30  python app.py
+   31  history 50 > terminal_history.txt
