@@ -29,3 +29,10 @@
    29  pip install questionary
    30  python app.py
    31  history 50 > terminal_history.txt
+   32  git add -f terminal_history.txt
+   33  git commit -m 'Loan qualifier app'
+   34  git config --global user.email "bevingo@gmail.com"
+   35  git config --global user.name "Wenge Zhang"
+   36  git commit -m 'Loan qualifier app'
+   37  git push -u
+   38  history 50 > terminal_history.txt
